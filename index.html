@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon.jpg" type="image/x-icon" />
     <title>Animated Slider</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,8 +22,9 @@
         <a href="#">Contact</a>
       </nav>
     </header>
-    <div class="slider next">
+    <div class="slider">
       <div class="list">
+        <!-- Slider -->
         <div class="item">
           <img src="img/1.jpg" alt="Image 1 Luffy" />
           <div class="detail">
@@ -57,7 +59,77 @@
             <a href="#" class="more">More Details &raquo;</a>
           </div>
         </div>
+        <div class="item">
+          <img src="img/nami.jpg" alt="Image 1 Nami" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Nami</div>
+            <figure>
+              <img src="/img/avatar/nami.jpg" alt="avatar 3" />
+              <figcaption>Strongest Swordman / East Blue</figcaption>
+            </figure>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolore exercitationem tempora excepturi est eos unde eveniet aut
+              tempore possimus.
+            </div>
+            <a href="#" class="more">More Details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/usopp.jpg" alt="Image 1 Usopp" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Usopp</div>
+            <figure>
+              <img src="/img/avatar/nami.jpg" alt="avatar 3" />
+              <figcaption>Strongest Swordman / East Blue</figcaption>
+            </figure>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolore exercitationem tempora excepturi est eos unde eveniet aut
+              tempore possimus.
+            </div>
+            <a href="#" class="more">More Details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/robin.png" alt="Image 1 Nami" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Nico Robbin</div>
+            <figure>
+              <img src="/img/avatar/robin.jpg" alt="avatar 3" />
+              <figcaption>Strongest Swordman / East Blue</figcaption>
+            </figure>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolore exercitationem tempora excepturi est eos unde eveniet aut
+              tempore possimus.
+            </div>
+            <a href="#" class="more">More Details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/5.jpg" alt="Image 1 Nami" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Sanji</div>
+            <figure>
+              <img src="/img/avatar/sanji.jpg" alt="avatar 3" />
+              <figcaption>Strongest Swordman / East Blue</figcaption>
+            </figure>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolore exercitationem tempora excepturi est eos unde eveniet aut
+              tempore possimus.
+            </div>
+            <a href="#" class="more">More Details &raquo;</a>
+          </div>
+        </div>
       </div>
+
+      <!-- Thumbnail -->
       <div class="thumbnail">
         <div class="item">
           <img src="img/1.jpg" alt="Thumbnail 1" />
@@ -78,11 +150,49 @@
             </blockquote>
           </div>
         </div>
+        <div class="item">
+          <img src="img/nami.jpg" alt="Thumbnail 3" />
+          <div class="detail">
+            <div class="name">Nami</div>
+            <blockquote>
+              If you think I'm just another cute girl, you're dead wrong!"
+            </blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/usopp.jpg" alt="Thumbnail 3" />
+          <div class="detail">
+            <div class="name">Usopp</div>
+            <blockquote>
+              "There Comes A Time When A Man Must Stand And Fight."
+            </blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/robin.png" alt="Thumbnail 4" />
+          <div class="detail">
+            <div class="name">Nico Robbin</div>
+            <blockquote>
+              “When all I want is to learn of a history, there are too many
+              enemies within my dream”
+            </blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/5.jpg" alt="Thumbnail 4" />
+          <div class="detail">
+            <div class="name">Sanji</div>
+            <blockquote>
+              "I'll Do What You Can't Do, And You Do What I Can't Do."
+            </blockquote>
+          </div>
+        </div>
       </div>
       <div class="arrows">
         <button id="prev">&lt;</button>
         <button id="next">&gt;</button>
       </div>
+      <div class="loading-bar"></div>
     </div>
     <script src="script.js"></script>
   </body>
